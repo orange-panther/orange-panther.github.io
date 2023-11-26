@@ -1,6 +1,5 @@
-.items :active {
-    color: navy;
-    rotate: 90deg;
+.items img:active {
+    transform: rotate(90deg);
 }
 
 .items img{
@@ -9,7 +8,6 @@
 }
 
 .items {
-    width: 1vh;
     display: flex;
     align-items: center;
 }

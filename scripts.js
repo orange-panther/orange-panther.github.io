@@ -1,6 +1,6 @@
 let counter = 0;
 
-isClicked()
+function isClicked()
 {
     counter++;
     document.getElementById("item-counter").innerHTML = counter;
